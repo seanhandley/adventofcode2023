@@ -13,5 +13,6 @@ def potential_gear_locations
 end
 
 if __FILE__ == $0
-  p potential_gear_locations.map { |x, y| neighbours(x, y) }
+  # p potential_gear_locations.map { |x, y| neighbours(x, y) }
+  p "1234"
 end
